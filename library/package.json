@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "version": "1.0.0",
+  "name": "library",
+  "main": "./index.cjs",
+  "module": "./index.es.js",
+  "exports": {
+    "import": "./index.es.js",
+    "require": "./index.cjs"
+  },
+  "sideEffects": false,
+  "files": [
+    "umd",
+    "lib"
+  ]
+}

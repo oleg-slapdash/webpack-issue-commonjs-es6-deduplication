@@ -1,0 +1,9 @@
+{
+  "name": "3rd-party-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "library": "file:./../library"
+  }
+}
